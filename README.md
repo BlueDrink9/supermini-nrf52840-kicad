@@ -1,2 +1,2 @@
 # supermini-nrf52840-kicad
-KiCAD footprint for the SuperMini NRF52840 microcontroller
+KiCAD footprint for the [SuperMini NRF52840](https://wiki.icbbuy.com/doku.php?id=developmentboard:nrf52840) microcontroller, a cheap nice!nano clone available on AliExpress. While the footprint of the outer pins is similar to the nice!nanos, the additional 3 pins (and possibly also the debug/serial pads) are in a different location. I have created this footprint from the officially supplied `.pcbdoc` file, for use with KiCAD. Import it into your own KiCAD project library, and replace the footprint of a nice!nano symbol with this one. (You should use a nice!nano symbol with the extra pins, for example [marbastlib-promicroish:nice_nano](https://github.com/ebastler/marbastlib)).
